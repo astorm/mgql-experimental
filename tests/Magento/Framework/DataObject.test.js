@@ -10,7 +10,7 @@ describe('Checking features on Magento\Framework\DataObject', function(){
     });
 
     it("should allow users to exersize magic get/set functions", function(){
-        var object = new DataObject;
+        var object = DataObject.factory();
         var valueToTest = "foo's value"
         object.setFoo(valueToTest);
         object.getFoo().should.be.equal(valueToTest);
