@@ -1,0 +1,21 @@
+{
+  "name": "magento-graphql",
+  "version": "1.0.0",
+  "description": "this is a bad idea",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
